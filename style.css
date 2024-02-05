@@ -20,7 +20,7 @@
     font-size: 20px; 
   }
   
-  .nav_links{
+  .nav-links{
     display: flex;
     justify-content: space-around;
     width: 30x;
@@ -29,7 +29,7 @@
   .nav-links li{
     list-style:none;
   }
-  
+
   .nav-links a{
     color: rgb(226,226,226);
     text-decoration: none;
@@ -50,7 +50,7 @@
     margin: 5px;
   }
   
-  @media screen and(max-width:1024px) {
+  @media screen and (max-width:1024px) {
     .nav-links{
       width:60%;
     }
@@ -60,7 +60,7 @@
     body{
       overflow-x: hidden;
     }
-    .nav_links{
+    .nav-links{
       position: absolute;
       right: 0px;
       height: 92vh;
@@ -83,5 +83,5 @@
   }
 
   .nav-active{
-    transform: translateX(0%)
+    transform: translateX(0%);
   }
