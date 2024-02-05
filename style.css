@@ -8,13 +8,13 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: pink;
+    background-color:#5d4954;
     min-height: 8vh;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
   }
   
   .logo{
-    color: rgb(red, green, blue);
+    color: rgb(226,226,226);
     text-transform: uppercase;
     letter-spacing: Spx;
     font-size: 20px; 
@@ -26,7 +26,7 @@
     width: 30x;
   }
   .nav-links a{
-    color: rgb(red, green, blue)
+    color: rgb(226,226,226);
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
@@ -40,14 +40,11 @@
   .burger div{
     width: 25px;
     height: 3px;
-    background-color: rgb(red, green, blue);
+    background-color: rgb;
     margin: 5px;
   }
   
   @media screen and (max-width: 768px){
-    body{
-        overflow-x: hidden;
-    }
     .nav_links{
       position: absolute;
       right: 0px;
@@ -58,11 +55,5 @@
       align-items: center;
       width: 50%;
       transform: translateX(100%)
-    }
-    .nav-links li{
-        opacity:0;
-    }
-    .burger{
-        display: block;
     }
   }
